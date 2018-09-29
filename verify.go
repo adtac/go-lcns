@@ -20,6 +20,8 @@ import (
 func VerifyAndExtractPayload(publicKey *rsa.PublicKey, str string) (interface{}, error) {
 	var err error
 
+	str = strings.TrimSpace(str)
+
 	if !strings.HasPrefix(str, header) || !strings.HasSuffix(str, footer) {
 		return nil, errors.New("invalid license key")
 	}
