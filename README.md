@@ -2,7 +2,7 @@
 
 [![GoDoc](https://godoc.org/github.com/adtac/go-lcns/github?status.svg)](https://godoc.org/github.com/adtac/go-lcns)
 
-`go-lcns` is a license generation and verification library for Go. I use this for the enterprise edition of [**Commento**](https://commento.io).
+`go-lcns` is a license generation and verification library for Go that uses RSA cryptography underneath. I use this for the enterprise edition of [**Commento**](https://commento.io).
 
 ##### Usage
 
